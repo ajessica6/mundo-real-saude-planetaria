@@ -1,17 +1,12 @@
 packages:
-  "framer-motion": "For elegant page transitions and scroll-triggered animations"
-  "clsx": "For conditional class merging"
-  "tailwind-merge": "For Tailwind class merging"
+  "framer-motion": "For fluid card animations and modal transitions"
+  "clsx": "For conditional class joining"
+  "tailwind-merge": "For merging tailwind classes safely"
 
 images:
-  - path: "artifacts/website/public/images/logo.png"
-    description: "A minimal, clean circular logo for an organic nature brand, featuring a simple subtle leaf motif in olive green on a white background, highly professional"
-    aspect_ratio: "1:1"
-  - path: "artifacts/website/public/images/cta-bg.png"
-    description: "A soft, warm earthy gradient background with subtle natural textures, light sage and olive green, suitable for a beautiful call to action section"
+  - path: "artifacts/website/public/images/hero-bg.png"
+    description: "Subtle abstract gradient mesh background in deep indigo and purple tones, clean and modern for a tech learning platform"
     aspect_ratio: "16:9"
 
 notes:
-  - This is a static, single-page landing website.
-  - Smooth scrolling is implemented natively via CSS.
-  - Animations are triggered on scroll using framer-motion.
+  - "The application uses pure frontend state (React Context) for filtering and search, as requested (no API)."
